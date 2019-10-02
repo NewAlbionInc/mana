@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 Project name: Mana
 Company name: New Albion Inc
@@ -35,3 +36,10 @@ Team members:
 	Jean-Loic Kandikandi	#300113205
 	Pierre Allard		#300102131
 	Zayd Al-Ghazal		#300112270
+=======
+this is a README
+
+hello does this work
+
+hi this is another edit
+>>>>>>> f8f7a905bb6bb683acaa2451e09edbb97313d0ce
