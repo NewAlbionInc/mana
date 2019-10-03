@@ -32,7 +32,7 @@ Additional details (summary):
 
 Team members:
 	Philippe Gagne 		#300056229
-	Jodi Qiao      		#300100795
+	Jodi Qiao      		##########
 	Jean-Loic Kandikandi	#300113205
 	Pierre Allard		#300102131
 	Zayd Al-Ghazal		#300112270
