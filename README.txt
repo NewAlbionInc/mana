@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+
+==============================================================================================
 
 Project name: Mana
 Company name: New Albion Inc
@@ -30,11 +31,11 @@ Additional details (summary):
 
 	- Payment is automatic after the end of the session
 
-Team members:
-	Philippe Gagne 		#300056229
-	Jodi Qiao      		##########
-	Jean-Loic Kandikandi	#300113205
-	Pierre Allard		#300102131
-	Zayd Al-Ghazal		#300112270
-
+Team members (student numbers in main document submitted to Brightspace):
+	Philippe Gagné
+	Pierre Allard
+	Jodi Qiao
+	Zayd Al-Ghazal
+	Jean-Loic Kandikandi
+	
 ====================================================================================
