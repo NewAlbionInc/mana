@@ -1,0 +1,50 @@
+
+Overall Look and Feel of Mana
+
+==============================
+
+We want Mana to be a tutoring service that empowers both students and tutors alike.
+
+Our app will be boldly royal blue, with light blue, purple and white accents.
+
+Our buttons will be flat.
+
+The website should be energetic and professional for the users.
+
+Colours
+========
+
+BA0DFF
+5200EB
+0006FF
+0057EB
+0DBCFF
+
+Iconography
+============
+
+We will have a flat design for all of our icons.
+
+Typography
+===========
+
+We will be using Varela Round from google fonts as the primary font.
+
+Links
+======
+
+Links are not underlined, but will change colour when hovered over. 
+
+Buttons
+========
+
+Buttons will be flat and change colour when hovered over.
+
+Pictures
+=========
+
+Stock photos will be from google.
+
+
+
+
