@@ -14,8 +14,6 @@ The website should be energetic and professional for the users.
 Colours
 ========
 
-![#BA0DFF](https://placehold.it/15/BA0DFF/000000?text=+) '#BA0DFF'
-
 #BA0DFF
 #5200EB
 #0006FF
