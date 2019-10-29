@@ -1,4 +1,4 @@
-
+﻿
 ==============================================================================================
 
 Project name: Mana
@@ -35,7 +35,7 @@ Team members (student numbers in main document submitted to Brightspace):
 	Philippe Gagné
 	Pierre Allard
 	Jodi Qiao
-	Zayd Al-Ghazal
+	Zayd Ghazal
 	Jean-Loic Kandikandi
 	
 ====================================================================================
