@@ -17,7 +17,7 @@ Colours
 #BA0DFF
 #5200EB
 #0006FF
-#0057EB
+#13118E
 #0DBCFF
 
 Iconography
