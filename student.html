@@ -31,7 +31,7 @@
 
 </head>
 
-<!-- Signup Box -->
+
 <body id="page-top">
 
   <!-- Navigation -->
@@ -46,13 +46,15 @@
     </nav>
   
   <!-- Info Section -->
-  <section id="students" class="contact-section bg-black">
+  <section id="students" class="contact-section bg-black py-4">
     
-    <div class="container-fluid">
-      <h3 class="text-white mb-5 text-center">For Students</h3>
+    <div class="container-fluid spacer">
+      <h3 class="text-white my-5 text-center">Mana for Students</h3>
+      <hr class="my-4">
+      <h3 class="text-white mb-5 text-center">Mana helps give you near-instant access to hundreds of top-notch tutors right on campus. </h3>
 
-      <!--Text blurb and signup form -->
-      <div class="container">
+      <!--Text blurb and signup form -->           <!--I EDITED THIS OUT BECAUSE IT LOOKS BAD AND WE CAN PUT THE FORM AT THE BOTTOM - PHIL-->
+      <!--<div class="container">
       <div class="row">
       <div class="col-6">
       <h3 class="text-white mb-5 text-center">Sign up now and get lightning-fast tutoring services. Spend as little as $ for 1 hour of tutoring.</h3>
@@ -80,7 +82,7 @@
             </div>
         </div>
       </div>
-      </div>
+      </div>-->
       </div>
 
       <div class="row">
@@ -119,24 +121,93 @@
             </div>
 
     </div>
+  </section>
+</body>
 
-        <!--Icon thingies-->
-        <div class="social d-flex justify-content-center">
-            <a href="#" class="mx-2">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" class="mx-2">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="mx-2">
-              <i class="fab fa-github"></i>
-            </a>
+<!-- Signup Box -->
+<body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <div class="container">
+          <a class="navbar-brand js-scroll-trigger" href="index.html">Mana</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
+          </button>
         </div>
-    
-    </section>
+      </nav>
+    <div class="card bg-light">
+            <article class="card-body mx-auto" style="max-width: 400px;">
+                <h4 class="card-title mt-3 text-center">Sign up now!</h4>
+                <p class="text-center">You'll receive regular updates from our dev team and become one of the first people to get notified when Mana launches!</p>
+                <form>
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                     </div>
+                    <input name="" class="form-control" placeholder="Full name" type="text">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                     </div>
+                    <input name="" class="form-control" placeholder="Email address" type="email">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+                    </div>
+                    <input name="" class="form-control" placeholder="Phone number" type="text">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+                    </div>
+                    <select class="form-control">
+                        <option selected=""> Select your role</option>
+                        <option>Student</option>
+                        <option>Tutor</option>
+                        <option>Faculty</option>
+                        <option>Other</option> 
+                    </select>
+                </div> <!-- form-group end.// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                    </div>
+                    <input class="form-control" placeholder="Create password" type="password">
+                </div> <!-- form-group// -->
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                    </div>
+                    <input class="form-control" placeholder="Repeat password" type="password">
+                </div> <!-- form-group// -->                                      
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
+                </div> <!-- form-group// -->      
+                <p class="text-center">Have an account? <a href="">Log In</a> </p>                                                                 
+            </form>
+            </article>
+            </div> <!-- card.// -->
 
+    
     <!-- Footer -->
-    <footer class="bg-black small text-center text-white-50">
+    <footer class="bg-black small text-center text-white-50 contact-section">
+
+      <!--Icon thingies-->
+      <div class="social d-flex justify-content-center">
+          <a href="#" class="mx-2">
+            <i class="fab fa-twitter"></i>
+          </a>  
+          <a href="#" class="mx-2">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="mx-2">
+            <i class="fab fa-github"></i>
+          </a>
+      </div>
+
         <div class="container">
         Copyright &copy; New Albion Inc 2019
         </div>
