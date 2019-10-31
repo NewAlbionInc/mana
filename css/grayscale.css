@@ -312,7 +312,10 @@ footer {
 
   height: 80%; /*percent of container*/
   width: 80%;
-
+ }
+ .two-little-piggies{
+   margin-left: 10%;
+   margin-right: 10%;
  }
 }
 
