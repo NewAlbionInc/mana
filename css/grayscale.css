@@ -305,3 +305,18 @@ a:focus, a:hover {
 footer {
   padding: 5rem 0;
 }
+
+/* special responsive css rules for team cards */
+@media screen and (max-width: 1500px) {
+ .team-holder {
+
+  height: 80%; /*percent of container*/
+  width: 80%;
+
+ }
+}
+
+/* zayd's teamcardimg */
+#teamcardimg{
+  border-radius: 50%;
+}
