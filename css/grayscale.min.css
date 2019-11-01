@@ -12,6 +12,7 @@
  #mainNav .navbar-nav .nav-item:active,
  #mainNav .navbar-nav .nav-item:focus{outline:0;background-color:transparent}@media (min-width:992px){#mainNav{padding-top:0;padding-bottom:0;border-bottom:none;background-color:transparent;transition:background-color .3s ease-in-out}
  #mainNav .navbar-brand{padding:.5rem 0;color:rgba(255,255,255,.5)}
+ #mainNav .navbar-brand:hover{color:#000000,.75}
  #mainNav .nav-link{transition:none;padding:2rem 1.5rem;color:rgba(255,255,255,.5)}
  #mainNav .nav-link:hover{color:rgba(255,255,255,.75)}
  #mainNav .nav-link:active{color:#fff}
@@ -26,10 +27,10 @@
  .masthead h1{font-size:6.5rem;line-height:6.5rem;letter-spacing:.8rem}
  .masthead h2{max-width:30rem;font-size:1.25rem}}
  .btn{box-shadow:0 .1875rem .1875rem 0 rgba(0,0,0,.1)!important;padding:1.25rem 2rem;font-family:'Comfortaa';font-size:80%;text-transform:uppercase;letter-spacing:.15rem;border:0}
- .btn-primary{background-color:#00EBFF}
- .btn-primary:hover{background-color:#0006FF}
- .btn-primary:focus{background-color:#0006FF;color:#fff}
- .btn-primary:active{background-color:#13118E!important}
+ .btn-primary{background-color:#6288F4}
+ .btn-primary:hover{background-color:#13118E}
+ .btn-primary:focus{background-color:#13118E;color:#fff}
+ .btn-primary:active{background-color:#00EBFF!important}
  .about-section{padding-top:10rem;background:linear-gradient(to bottom,#161616 0,rgba(22,22,22,.9) 75%,rgba(22,22,22,.8) 100%)}
  .about-section p{margin-bottom:5rem}
  .projects-section{padding:10rem 0}
@@ -45,7 +46,8 @@
  .contact-section .social{margin-top:5rem}
  .contact-section .social a{text-align:center;height:3rem;width:3rem;background:rgba(255,255,255,.1);border-radius:100%;line-height:3rem;color:rgba(255,255,255,.3)}
  .contact-section .social a:hover{color:rgba(255,255,255,.5)}
- .contact-section .social a:active{color:#fff}body{font-family:"Comfortaa";letter-spacing:.0625em}a{color:#00EBFF}a:focus,a:hover{text-decoration:none;color:#3c6360}
+ .contact-section .social a:active{color:#fff}body{font-family:"Comfortaa";letter-spacing:.0625em}a{color:#6288F4}a:focus,a:hover{text-decoration:none;color:#13118E}
+ .spacer hr{border-color:#00EBFF;border-width:.25rem;width:5rem}
  .bg-black{background-color:#161616!important}
  .bg-primary{background-color:#00EBFF!important}
  .text-primary{color:#00EBFF!important}footer{padding:5rem 0}

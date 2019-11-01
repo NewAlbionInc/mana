@@ -15,6 +15,14 @@ html {
   box-sizing: inherit;
 }
 
+.logo-image{
+  width: 2089px;
+  height: 1002px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -51,8 +59,8 @@ html {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 100px;
+  margin-left: 100px;
 }
 
 .row {
@@ -62,6 +70,7 @@ html {
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  margin-bottom: -15px;
 }
 
 .no-gutters {
@@ -2026,7 +2035,7 @@ html {
 }
 
 .m-5 {
-  margin: 3rem !important;
+  margin: 3rem!important;
 }
 
 .mt-5,

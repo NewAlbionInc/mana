@@ -136,6 +136,14 @@
   }
 }
 
+.logo-image{
+  width: 2089px;
+  height: 1002px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -296,4 +304,19 @@ a:focus, a:hover {
 
 footer {
   padding: 5rem 0;
+}
+
+/* special responsive css rules for team cards */
+@media screen and (max-width: 1500px) {
+ .team-holder {
+
+  height: 80%; /*percent of container*/
+  width: 80%;
+
+ }
+}
+
+/* zayd's teamcardimg */
+#teamcardimg{
+  border-radius: 50%;
 }
