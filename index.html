@@ -29,6 +29,9 @@
   <meta name="msapplication-TileColor" content="#6288f4">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- Viewport Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 <body id="page-top">
@@ -37,7 +40,7 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="img/NewAlbionMana_MONO_BLACK_TEXT.png" width="100" height="49" alt="">
+        <img src="img/NewAlbionMana_MONO_BLACK_TEXT.png" width="100" alt="">
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -49,11 +52,16 @@
             <a class="nav-link js-scroll-trigger" href="#about">About</a>
           </li>
           <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#pricing">Pricing</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team">Team</a>
           </li>
+          <button class="btn btn-signup js-scroll-trigger" href="#signup">Signup
+          </button>
         </ul>
       </div>
     </div>
@@ -63,11 +71,13 @@
   <header class="masthead">
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
-        <h1 class="mx-auto my-0 text-lowercase">Mana</h1>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A local, affordable, lightning-fast tutoring app created by New Albion Inc, for uOttawa.</h2>
-        <a href="student.html" class="btn btn-primary js-scroll-trigger">For students</a>
-        <a href="tutor.html" class="btn btn-primary js-scroll-trigger">For tutors</a>
-        <a href="schools.html" class="btn btn-primary js-scroll-trigger">For schools</a>
+        <a>
+          <img src="img/NewAlbionMana_MONO_FULLCOLOR_TEXT_BOTTOM.png" width="400" alt="">
+        </a>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">A local, lightning-fast tutoring platform creating new opportunities for students to empower each other and foster their academic community.</h2>
+        <a href="student.html" class="btn btn-primary js-scroll-trigger mb-1">For students</a>
+        <a href="tutor.html" class="btn btn-primary js-scroll-trigger mb-1">For tutors</a>
+        <a href="schools.html" class="btn btn-primary js-scroll-trigger mb-1">For schools</a>
       </div>
     </div>
   </header>
@@ -77,7 +87,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Get hired as a tutor, hire one, or do both!</h2>
+          <h2 class="text-white mb-4">Hire a tutor, become one, or do both!</h2>
           <p class="text-white-50"> Need an assignment reviewed or urgent help before an exam? Get instant access to high-quality, university-credited tutors.</p>
           <p class="text-white-50"> Short on cash? We pay uOttawa students by the hour to tutor their peers.</p>
         </div>
@@ -86,7 +96,7 @@
   </section>
 
   <!-- About Part II Section -->
-  <section class="projects-section bg-light">
+  <section id="features" class="projects-section bg-light">
     <div class="container">
 
       <!-- Description Row -->
@@ -192,15 +202,17 @@
   <section id="team" class="contact-section bg-black team-holder">
 
         
-    <div class="container">
+    <div class="container-fluid">
       <h3 class="text-white mb-5 text-center">The Team</h3>
       <h3 class="text-white mb-5 text-center">Awesome People</h3>
-      <div class="row">
+      
+      <div class="row justify-content-center mx-5"> <!--mx-4 gives row a margin that aligns with mana brand in nav-->
+
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <img src="/img/doe1.jpg" alt="Jane" width="250" height="350" >
-              <h4 class="text-uppercase m-4">Pierre</h4>
+              <img src="/img/doe1.jpg" alt="Jane" width=90% height=90% >
+              <div class="small text-uppercase m-4">Pierre</div>
               <hr class="my-4">
               <div class="small text-black-50">Milk buyer</div>
             </div>
@@ -210,8 +222,8 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <img id="teamcardimg" src="img/jodi.jpg" alt="Jodi" width="175" height="250">
-              <h4 class="text-uppercase m-4">Jodi</h4>
+              <img id="teamcardimg" src="img/jodi.jpg" alt="Jodi" width=90% height=90%>
+              <div class="small text-uppercase m-4">Jodi</div>
               <hr class="my-4">
               <div class="small text-black-50">Tire popper</div>
             </div>
@@ -221,58 +233,62 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <img src="img/loic.jpeg" alt="Loic" width="250" height="350">
-              <h4 class="text-uppercase m-4">Loic</h4>
+              <img src="img/loic.jpeg" alt="Loic" width=90% height=90%>
+              <div class="small text-uppercase m-4">Loic</div>
               <hr class="my-4">
             </div>
             <div class="small text-black-50"> Loic is a passion-driven and aspiring software engineer. His hobbies include listening to  music and programming brain games in python and Java. </div>
           </div>
         </div>
-
-        <div class="col-md-4 mb-3 mb-md-0" style="margin-left: 187px;">
+     
+        <div class="col-md-4 mt-3 mb-3 mb-md-0" class="phil">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <img src="/img/doe3.jpg" alt="Jon" width="250" height="350">
-              <h4 class="text-uppercase m-4">Philippe</h4>
+              <img src="/img/doe3.jpg" alt="Jon" width=90% height=90%>
+              <div class="small text-uppercase m-4">Philippe</div>
               <hr class="my-4">
               <div class="small text-black-50">cool guy</div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-3 mb-md-0" style="margin-right:187px ;">
+        <div class="col-md-4 mt-3 mb-3 mb-md-0">
           <div class="card py-4 h-10">
             <div class="card-body text-center">
-              <img src="/img/doe3.jpg" alt="Jon" width="250" height="350">
-              <h4 class="text-uppercase m-4">Zayd</h4>
+              <img src="/img/doe3.jpg" alt="Jon" width=90% height=90%>
+              <div class="small text-uppercase m-4">Zayd</div>
               <hr class="my-4">
               <div class="small text-black-50">Bad rapper</div>
             </div>
           </div>
         </div>
+       </div> 
     </div>
 
     
-    <div class="social d-flex justify-content-center">
-      <a href="https://twitter.com/ManaTutoring" class="mx-2">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="https://www.facebook.com/ManaTutoring/" class="mx-2">
-        <i class="fab fa-facebook-f"></i>
-      </a>
-      <a href="https://github.com/NewAlbionInc/mana" class="mx-2">
-        <i class="fab fa-github"></i>
-      </a>
-    </div>
+   <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50 contact-section">
 
+    <!--Icon thingies-->
+    <div class="social d-flex justify-content-center" style="margin-top: -50px;">
+        <a href="https://twitter.com/ManaTutoring" target="_blank" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/ManaTutoring/" target="_blank" class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://github.com/NewAlbionInc/mana" target="_blank" class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+    </div>
+    
+        <div class="container" style="margin-top: 20px; padding-bottom: 20px;">
+          Copyright &copy; New Albion Inc 2019
+        </div>
+      </footer>
   </section>
 
-  <!-- Footer -->
-  <footer class="bg-black small text-center text-white-50">
-    <div class="container">
-      Copyright &copy; New Albion Inc 2019
-    </div>
-  </footer>
+
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
