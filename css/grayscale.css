@@ -314,13 +314,16 @@ footer {
   height: 80%; /*percent of container*/
   width: 80%;
  }
- .two-little-piggies{
-   margin-left: 10%;
-   margin-right: 10%;
+ .phil {
+   margin-left:40% !important
  }
 }
 
 /* zayd's teamcardimg */
 #teamcardimg{
   border-radius: 50%;
+}
+
+#phil {
+  padding: 0px;
 }
