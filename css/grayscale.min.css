@@ -12,6 +12,7 @@
  #mainNav .navbar-nav .nav-item:active,
  #mainNav .navbar-nav .nav-item:focus{outline:0;background-color:transparent}@media (min-width:992px){#mainNav{padding-top:0;padding-bottom:0;border-bottom:none;background-color:transparent;transition:background-color .3s ease-in-out}
  #mainNav .navbar-brand{padding:.5rem 0;color:rgba(255,255,255,.5)}
+ #mainNav .navbar-brand:hover{color:#000000,.75}
  #mainNav .nav-link{transition:none;padding:2rem 1.5rem;color:rgba(255,255,255,.5)}
  #mainNav .nav-link:hover{color:rgba(255,255,255,.75)}
  #mainNav .nav-link:active{color:#fff}
