@@ -313,11 +313,17 @@ footer {
 
   height: 80%; /*percent of container*/
   width: 80%;
-
+ }
+ .phil {
+   margin-left:40% !important
  }
 }
 
 /* zayd's teamcardimg */
 #teamcardimg{
   border-radius: 50%;
+}
+
+#phil { /*not too sure what this is doing but i'm not going to remove it..*/
+  padding: 0px;
 }
