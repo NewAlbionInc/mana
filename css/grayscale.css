@@ -327,3 +327,11 @@ footer {
 #phil { /*not too sure what this is doing but i'm not going to remove it..*/
   padding: 0px;
 }
+
+.jodisection {
+  height: 100%;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
