@@ -38,22 +38,102 @@
 </head>
 
 <body id="page-top">
-    <!-- header -->
-    <header class="masthead">
-        <div class="container d-flex h-100 align-items-center">
-            <div class="mx-auto text-center">
-            <a>
-                <img src="img/NewAlbionMana_MONO_FULLCOLOR_TEXT_BOTTOM.png" width="150" alt="">
-            </a>
-            <h2 class="text-white-50 mx-auto mt-2 mb-2">Sign Up for Mana</h2>
-            <p class="text-white-50 mx-auto mt-2 mb-5">Lightning-fast academic solutions just for you.</p>
-            </div>
-        </div>
-    </header>
-        
-
     <!-- Section -->
-    <section id="tutor-info" class="contact-section bg-black py-4" style="min-height:100vh;">
+    <section id="tutor-info" class="contact-section bg-fancy" style="min-height:100vh;">
+            <div class="card bg-light" id="singup">
+                    <article class="card-body mx-auto" style="max-width: 400px;">
+                            <div class="container py-3 align-items-center">
+                                <div class="mx-auto text-center">
+                                <a href="index.html">
+                                    <img src="img/NewAlbionMana_MONO_FULLCOLOR_TEXT_BOTTOM.png" width="150" alt="">
+                                </a>
+                                <h2 class="text-black-50 mx-auto mt-2 mb-2">Sign Up for Mana</h2>
+                                <p class="text-black-50 mx-auto mt-2 mb-5">Lightning-fast academic solutions just for you.</p>
+                                </div>
+                            </div>
+                        <p class="text-center">You'll receive regular updates from our dev team and become one of the first people to get notified when Mana launches!</p>
+                        <form>
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                                </div>
+                            <input name="" class="form-control" placeholder="Full name" type="text">
+                        </div> <!-- form-group// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                                </div>
+                            <input name="" class="form-control" placeholder="Email address" type="email">
+                        </div> <!-- form-group// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
+                            </div>
+                            <input name="" class="form-control" placeholder="Phone number" type="text">
+                        </div> <!-- form-group// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-building"></i> </span>
+                            </div>
+                            <select class="form-control">
+                                <option selected=""> Select your role</option>
+                                <option>Student</option>
+                                <option>Tutor</option>
+                                <option>Faculty</option>
+                                <option>Other</option> 
+                            </select>
+                        </div> <!-- form-group end.// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                            </div>
+                            <input class="form-control" placeholder="Create password" type="password">
+                        </div> <!-- form-group// -->
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                            </div>
+                            <input class="form-control" placeholder="Repeat password" type="password">
+                        </div> <!-- form-group// -->                                      
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-block"> Create Account  </button>
+                        </div> <!-- form-group// -->      
+                        <p class="text-center">Have an account? <a href="">Log In</a> </p>                                                                 
+                    </form>
+                    </article>
+                </div> <!-- card.// -->
+    </section>
+
+        <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50 contact-section">
+
+        <!--Icon thingies-->
+        <div class="social d-flex justify-content-center" style="margin-top: -50px;">
+            <a href="https://twitter.com/ManaTutoring" target="_blank" class="mx-2">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.facebook.com/ManaTutoring/" target="_blank" class="mx-2">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://github.com/NewAlbionInc/mana" target="_blank" class="mx-2">
+              <i class="fab fa-github"></i>
+            </a>
+        </div>
+        
+            <div class="container" style="margin-top: 20px; padding-bottom: 20px;">
+              Copyright &copy; New Albion Inc 2019
+            </div>
+          </footer>
+        
+          <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    
+        <!-- Custom scripts for this template -->
+        <script src="js/grayscale.min.js"></script> 
 </body>
 
 </html>
