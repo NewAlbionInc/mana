@@ -41,5 +41,17 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $(document).ready(function() {
+    $(window).scroll(function() {
+      if ($(document).scrollTop() < 50) {
+        $('img/NewAlbionMana_MONO_LBLUE_TEXT.png').show();
+        $('img/NewAlbionMana_MONO_DBLUE_TEXT.png').hide();
+      } else {
+        $('img/NewAlbionMana_MONO_DBLUE_TEXT.png').show();
+        $('img/NewAlbionMana_MONO_LBLUE_TEXT.png').hide();
+      }
+    });
+  });
+
 })(jQuery); // End of use strict
 
