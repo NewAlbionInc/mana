@@ -324,7 +324,6 @@ footer {
   border-radius: 50%;
 }
 
-<<<<<<< HEAD
  /* Loic's desperate attempt to create cool animations but failing miserably
  .page-top{
    opacity: 0;
@@ -336,8 +335,6 @@ footer {
    opacity:1;
    transform: translateY(0px);
  }*/
-=======
 #phil { /*not too sure what this is doing but i'm not going to remove it..*/
   padding: 0px;
 }
->>>>>>> 853a20564c426b80dcfa2b608225aba5174c3a08
