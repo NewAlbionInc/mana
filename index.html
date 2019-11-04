@@ -39,8 +39,11 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">
-        <img src="img/NewAlbionMana_MONO_BLACK_TEXT.png" width="100" alt="">
+      <a href="#" class="navbar-brand image1" href="#page-top" style="visibility: hidden;"> <!--visibility hidden needed as opposed to display none because it leaves blank space-->
+        <img src="img/NewAlbionMana_MONO_BLUE_TEXT.png" width="100" opacity="0.0" alt="Logo">
+      </a>
+      <a href="#" class="navbar-brand image2" style="display:none;">
+        <img src="img/NewAlbionMana_MONO_BLUE_TEXT.png" width="100" opacity=0 alt="Logo">
       </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -60,7 +63,7 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team">Team</a>
           </li>
-          <button onclick="location.href='fullsignup.html'" class="btn btn-signup" style="color:white">Signup
+          <button class="btn btn-signup" onclick="location.href='fullsignup.html'">Signup
           </button>
         </ul>
       </div>
@@ -72,9 +75,9 @@
     <div class="container d-flex h-100 align-items-center">
       <div class="mx-auto text-center">
         <a>
-          <img src="img/NewAlbionMana_MONO_FULLCOLOR_TEXT_BOTTOM.png" width="400" alt="">
+          <img src="img/NewAlbionMana_MONO_FULLCOLOR_TEXT_BOTTOM.png" width="400" class="pt-5" alt="">
         </a>
-        <h2 class="text-white-50 mx-auto mt-2 mb-5">A local, lightning-fast tutoring platform creating new opportunities for students to empower each other and foster their academic community.</h2>
+        <h2 class="text-white-50 mx-auto mt-2 mb-4">A local, lightning-fast tutoring platform creating new opportunities for students to empower each other and foster their academic community.</h2>
         <a href="student.html" class="btn btn-primary js-scroll-trigger mb-1">For students</a>
         <a href="tutor.html" class="btn btn-primary js-scroll-trigger mb-1">For tutors</a>
         <a href="schools.html" class="btn btn-primary js-scroll-trigger mb-1">For schools</a>
@@ -83,7 +86,7 @@
   </header>
 
   <!-- About Section -->
-  <section id="about" class="about-section text-center" style="min-height:100vh;">
+  <section id="about" class="about-section text-center" style="min-height:100vh;" >
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -157,7 +160,7 @@
 
 
   <!-- Pricing Section -->
-  <section id="pricing" class="contact-section bg-black">
+  <section id="pricing" class="contact-section bg-black" style="min-height:100vh;">
     <div class="container">
       <h3 class="text-white mb-5 text-center">Pricing</h3>
       <h3 class="text-white mb-5 text-center">The rates of our tutors differ by degree.</h3>
@@ -211,7 +214,7 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <img src="/img/doe1.jpg" alt="Jane" width=90% height=90% >
+              <img src="img/doe1.jpg" alt="Pierre" style="width: auto; height: 195px; border-radius: 5px;"> <!-- I want this changed to max-width:100% height:auto after we demo-->
               <div class="small text-uppercase m-4">Pierre</div>
               <hr class="my-4">
               <div class="small text-black-50">Milk buyer</div>
@@ -222,10 +225,10 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <img id="teamcardimg" src="img/jodi.jpg" alt="Jodi" width=90% height=90%>
+              <img src="img/jodi.jpg" alt="Jodi" style="width: auto; height: 195px; border-radius: 5px;">
               <div class="small text-uppercase m-4">Jodi</div>
               <hr class="my-4">
-              <div class="small text-black-50">Tire popper</div>
+              <div class="small text-black-50">Jodi is interested in data & analytics. She's currently working on using javascript to build a dashboard to visualize Canadian healthcare data.</div>
             </div>
           </div>
         </div>
@@ -233,18 +236,18 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <img src="img/loic.jpg" alt="Loic" width=90% height=90%>
+              <img src="img/loic.jpg" alt="Loic" style="width: auto; height: 195px; border-radius: 5px;">
               <div class="small text-uppercase m-4">Loic</div>
               <hr class="my-4">
+              <div class="small text-black-50">Loic is a passion-driven and aspiring software engineer. His hobbies include listening to  music and programming brain games in python and Java. </div>
             </div>
-            <div class="small text-black-50"> Loic is a passion-driven and aspiring software engineer. His hobbies include listening to  music and programming brain games in python and Java. </div>
           </div>
         </div>
      
         <div class="col-md-4 mt-3 mb-3 mb-md-0" class="phil">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <img src="/img/doe3.jpg" alt="Jon" width=90% height=90%>
+              <img src="img/phil.jpg" alt="Phil" style="width: auto; height: 195px; border-radius: 5px;">
               <div class="small text-uppercase m-4">Philippe</div>
               <hr class="my-4">
               <div class="small text-black-50">cool guy</div>
@@ -255,7 +258,7 @@
         <div class="col-md-4 mt-3 mb-3 mb-md-0">
           <div class="card py-4 h-10">
             <div class="card-body text-center">
-              <img src="/img/doe3.jpg" alt="Jon" width=90% height=90%>
+              <img src="img/zayd.jpg" alt="Zayd" style="width: auto; height: 195px; border-radius: 5px;">
               <div class="small text-uppercase m-4">Zayd</div>
               <hr class="my-4">
               <div class="small text-black-50">Bad rapper</div>
@@ -301,6 +304,20 @@
   <script src="js/grayscale.min.js"></script>
 
   <!--<script> src="animations.js"</script> -->
+  <script>
+  
+  $(document).ready(function() {
+      $(window).scroll(function() {
+        if ($(document).scrollTop() < 50) {
+          $('.image1').show();
+          $('.image2').hide();
+        } else {
+          $('.image2').show();
+          $('.image1').hide();
+        }
+      });
+    });
+  </script>
 </body>
 
 </html>
