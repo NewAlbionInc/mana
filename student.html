@@ -29,6 +29,9 @@
     <meta name="msapplication-TileColor" content="#6288f4">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- Viewport Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 
@@ -38,13 +41,13 @@
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
           <a class="navbar-brand js-scroll-trigger" href="index.html">Mana</a>
-          <button class="btn btn-signup js-scroll-trigger" href="#signup">Signup
-          </button>
+          <a class="btn btn-signup js-scroll-trigger" style="color:white" href="#signup">Signup
+          </a>
         </div>
     </nav>
   
   <!-- Info Section -->
-  <section id="student-info" class="contact-section bg-black py-4">
+  <section id="student-info" class="contact-section bg-black py-4" style="min-height:100vh;">
     
     <div class="container-fluid spacer">
       <h3 class="text-white mt-5 text-center">Mana for Students</h3>
@@ -57,9 +60,10 @@
         <div class="col-md-4 mb-3 mb-md-0">
           <div class="card py-4 h-100">
             <div class="card-body text-center">
-              <h4 class="text-uppercase m-4">Affordable selection of tutors</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">You can select from a list of available tutors in your price range.</div>
+                <img src="img/money.png" width="50" alt="">
+                <h4 class="text-uppercase m-4">Affordable selection of tutors</h4>
+                <hr class="my-4">
+                <div class="small text-black-50">You can select from a list of available tutors in your price range.</div>
             </div>
           </div>
         </div>
@@ -68,9 +72,10 @@
         <div class="col-md-4 mb-3 mb-md-0">
             <div class="card py-4 h-100">
               <div class="card-body text-center">
-                <h4 class="text-uppercase m-4">Make it work with your schedule</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">We have many tutors with availability at different hours of the day.</div>
+                    <img src="img/calendar.png" width="50" alt="">
+                    <h4 class="text-uppercase m-4">Make it work with your schedule</h4>
+                    <hr class="my-4">
+                    <div class="small text-black-50">We have many tutors with availability at different hours of the day.</div>
               </div>
             </div>
           </div>
@@ -79,9 +84,10 @@
         <div class="col-md-4 mb-3 mb-md-0">
             <div class="card py-4 h-100">
                 <div class="card-body text-center">
-                  <h4 class="text-uppercase m-4">Rate your tutor to show your gratitude</h4>
-                  <hr class="my-4">
-                  <div class="small text-black-50">Give your favourite tutor 5 stars! The feedback helps a tutor level up, with experience and better rating, a tutor can earn more.</div>
+                    <img src="img/favorites.png" width="50" alt="">
+                    <h4 class="text-uppercase m-4">Rate your tutor to show your gratitude</h4>
+                    <hr class="my-4">
+                    <div class="small text-black-50">Give your favourite tutor 5 stars! The feedback helps a tutor level up, with experience and better rating, a tutor can earn more.</div>
                 </div>
               </div>
             </div>
@@ -90,8 +96,8 @@
   </section>
 
 <!-- Signup Box -->
-
-<div class="card bg-light" id="singup">
+<section id="signup">
+<div class="card bg-light" >
         <article class="card-body mx-auto" style="max-width: 400px;">
             <h4 class="card-title mt-3 text-center">Sign up now!</h4>
             <p class="text-center">You'll receive regular updates from our dev team and become one of the first people to get notified when Mana launches!</p>
@@ -116,18 +122,6 @@
             </div> <!-- form-group// -->
             <div class="form-group input-group">
                 <div class="input-group-prepend">
-                    <span class="input-group-text"> <i class="fa fa-building"></i> </span>
-                </div>
-                <select class="form-control">
-                    <option selected=""> Select your role</option>
-                    <option>Student</option>
-                    <option>Tutor</option>
-                    <option>Faculty</option>
-                    <option>Other</option> 
-                </select>
-            </div> <!-- form-group end.// -->
-            <div class="form-group input-group">
-                <div class="input-group-prepend">
                     <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                 </div>
                 <input class="form-control" placeholder="Create password" type="password">
@@ -145,7 +139,7 @@
         </form>
         </article>
     </div> <!-- card.// -->
-
+</section>
     
     <!-- Footer -->
   <footer class="bg-black small text-center text-white-50 contact-section">
@@ -179,3 +173,5 @@
     <script src="js/grayscale.min.js"></script> 
 
 </body>
+
+</html>
