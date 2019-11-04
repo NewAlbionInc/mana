@@ -324,6 +324,22 @@ footer {
   border-radius: 50%;
 }
 
+<<<<<<< HEAD
+ /* Loic's desperate attempt to create cool animations but failing miserably
+ .page-top{
+   opacity: 0;
+   transform: translateY(20px);
+   transition: 0.5s all ease-in-out;
+ }
+
+ .page-top-appear{
+   opacity:1;
+   transform: translateY(0px);
+ }*/
+#phil { /*not too sure what this is doing but i'm not going to remove it..*/
+  padding: 0px;
+}
+=======
 #phil { /*not too sure what this is doing but i'm not going to remove it..*/
   padding: 0px;
 }
@@ -335,3 +351,4 @@ footer {
   justify-content: center;
   align-items: center;
 }
+>>>>>>> 3cdb2cbb9ed7058103ee3bb93d0bf5c22f855ef6
