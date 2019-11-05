@@ -54,7 +54,7 @@
  .bg-primary{background-color:#00EBFF!important}
  .text-primary{color:#00EBFF!important}footer{padding:5rem 0}
  .btn-signup{background-color:#6288F4;margin:10px;color:#fff;}
- .btn-signup:hover{background-color:#13118E}
- .btn-signup:focus{background-color:#13118E;color:#fff}
- .btn-signup:active{background-color:#6288F4!important}
+ .btn-signup:hover{background-color:#13118E;color:#fff;}
+ .btn-signup:focus{background-color:#13118E;color:#fff;}
+ .btn-signup:active{background-color:#6288F4!important;color:#fff;}
  .bg-fancy{background:url(../img/signup_mast.jpg)!important} /* the top strip in full signup sheet*/
