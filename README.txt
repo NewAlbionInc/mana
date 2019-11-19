@@ -31,7 +31,7 @@ Additional details (summary):
 
 	- Payment is automatic after the end of the session
 	
-Mana is responsive on a wide range of screen sizes.
+The Mana website is responsive on a wide range of screen sizes.
 
 Team members (student numbers in main document submitted to Brightspace):
 	Philippe Gagné
