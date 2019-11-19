@@ -30,6 +30,8 @@ Additional details (summary):
 		- They are then instructed where on campus they need to go to meet their student.
 
 	- Payment is automatic after the end of the session
+	
+Mana is responsive on a wide range of screen sizes.
 
 Team members (student numbers in main document submitted to Brightspace):
 	Philippe Gagné
